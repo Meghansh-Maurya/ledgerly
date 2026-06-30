@@ -160,7 +160,3 @@ POST /api/v1/transactions/
 - `user` field is read-only on all serializers — it's always assigned server-side from the authenticated request, never accepted as input.
 - All querysets are filtered by `request.user` — no endpoint returns data belonging to another user.
 - JWT access tokens expire after 1 day; refresh tokens after 7 days.
-
-## License
-
-MIT
