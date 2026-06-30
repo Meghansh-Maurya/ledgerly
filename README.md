@@ -109,7 +109,7 @@ POST /api/v1/token/refresh/
 | PUT | `/api/v1/transactions/{id}/` | Update a transaction |
 | DELETE | `/api/v1/transactions/{id}/` | Delete a transaction |
 | GET | `/api/v1/transactions/reports/summary/` | Current month income, expense, savings |
-| GET | `/api/v1/transactions/reports/by-category/` | Current month spending grouped by category |
+| GET | `/api/v1/transactions/reports/by_category/` | Current month spending grouped by category |
 
 ### Filtering
 
