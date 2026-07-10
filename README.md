@@ -20,7 +20,7 @@ Built with Django and Django REST Framework, using JWT for authentication and pe
 - Django REST Framework
 - djangorestframework-simplejwt (JWT authentication)
 - django-filter (query param filtering)
-- SQLite (development) — swap to PostgreSQL via `DATABASE_URL` for production
+- SQLite (development)
 
 ## Setup
 
